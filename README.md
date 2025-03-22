@@ -63,6 +63,7 @@ Arkadaşlar sayfası, kullanıcılara referans sistemi aracılığıyla arkadaş
 - Alt kısımda uygulama içi navigasyon menüsü bulunur
 
 Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte olmalarını sağlarken, topluluk oluşturmayı ve uygulamanın büyümesini teşvik eder. 
+
 ![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
 
 

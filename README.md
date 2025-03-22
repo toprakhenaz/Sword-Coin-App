@@ -43,7 +43,6 @@ League butonuna tıklandığında, şunları gösteren bir lig sayfası açılı
 ![lig](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
 
 
-# Friends Page - Referral System
 
 ## Arkadaşlar Sayfası - Davet Sistemi
 
@@ -67,3 +66,39 @@ Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte o
 ![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
 
 
+## Mine Sayfası - Kartlar ve Günlük Kombo
+
+Mine sayfası, kullanıcıların çeşitli kartları görüntüleyebildiği, yükseltebildiği ve günlük kombo etkinliğine katılabildiği alandır.
+
+### Daily Combo Sistemi
+- **Günlük Kombo**: Sayfanın üst kısmında görüntülenen, her 24 saatte bir otomatik olarak yenilenen özel bir etkinlik
+- **Ödül**: Rastgele seçilmiş 3 kartı doğru şekilde bulunca **100,000 coin** kazanma fırsatı
+- **Zaman Sayacı**: Bir sonraki yenilemeye kalan süreyi gösteren geri sayım sayacı (03:47:23)
+
+### Kart Kategorileri
+Kartlar farklı kategorilere ayrılmıştır:
+- **Ekipman**
+- **İşçiler**
+- **İstekai**
+- **Özel** (Premium kartlar, daha yüksek fiyatla satılır)
+
+### Kart Özellikleri
+- Her kartın kendine özgü görsel tasarımı vardır
+- Örnekler: "Abyssal Hammer" ve "Celestial Shield"
+- Kartların **Seviye** sistemi vardır (Seviye 0, Seviye 1, vb.)
+- Her kart yükseltildiğinde **Crystal ** kazanılır
+
+### Yükseltme Sistemi
+- Kartları yükseltmek için coin gereklidir
+- Yükseltme maliyeti kartın seviyesine göre değişir
+- Örnek fiyatlar: 1100 coin, 1500 coin
+- Kartlar yükseltildikçe daha değerli hale gelir
+
+### Tasarım
+- Görsel açıdan çekici, detaylı kart tasarımları
+- Seviye, maliyet ve ödül bilgileri net bir şekilde gösterilir
+- Alt kısımda uygulama içi navigasyon menüsü bulunur
+
+Bu sayfa, oyun içi koleksiyon oluşturma ve ekonomi sisteminin önemli bir parçasıdır, kullanıcıları düzenli olarak uygulamaya dönmeye teşvik eden Daily Combo sistemi ile kullanıcı bağlılığını artırır.
+
+![Mine Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Mine.gif)

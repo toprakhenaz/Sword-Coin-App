@@ -102,3 +102,44 @@ Kartlar farklı kategorilere ayrılmıştır:
 Bu sayfa, oyun içi koleksiyon oluşturma ve ekonomi sisteminin önemli bir parçasıdır, kullanıcıları düzenli olarak uygulamaya dönmeye teşvik eden Daily Combo sistemi ile kullanıcı bağlılığını artırır.
 
 ![Mine Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Mine.gif)
+
+
+
+## Earn Sayfası - Ödüller ve Günlük Bonuslar
+
+Earn sayfası, kullanıcıların çeşitli görevleri tamamlayarak ödüller kazanabileceği bir bölümdür.
+
+### Günlük Ödül Sistemi
+- **Günlük Ödül (Streak)**: Kullanıcının kaç gün üst üste uygulamaya giriş yaptığını gösteren sayaç
+- **İlerleme Çubuğu**: Streak'in görsel gösterimi
+- **Mevcut Durum**: "Streak: 3 gün" (Örnek)
+- **Döngü**: 7 günlük bir döngü tamamlandıktan sonra sistem yeniden başlar
+- **Ödül Butonu**: "Ödülü Al" butonu ile günlük ödül talep edilebilir
+
+### Özel Teklifler
+Kullanıcılara sunulan çeşitli görevler kategorilere ayrılmıştır:
+- **Crypto**
+- **Banka**
+- **Sponsor**
+- **Reklam**
+
+### Görev Örnekleri ve Ödülleri
+- **Binomo 10$**: 10000 Crystal ödül (Durumu: Pending)
+- **Discord'a katıl**: 20000 Crystal ödül (Durumu: Pending)
+- **Arkadaşını davet et**: 25000 Crystal ödül (Durumu: Pending)
+- **Gemz uygulamasını değerlendir**: 30000 Crystal ödül (Durumu: Go - Aktif)
+- **Telegram grubuna katıl**: Crystal ödül (Durumu: Go - Aktif)
+
+### Görev Durumları
+- **Pending**: Henüz tamamlanmamış veya onay bekleyen görevler
+- **Go**: Tamamlanmaya hazır, aktif görevler
+
+### Sayfa Üst Bilgisi
+- Sol üstte kullanıcının toplam coin miktarı: 111000
+- Sağ üstte kullanıcının toplam crystal miktarı: 65110
+
+Bu sayfa, kullanıcıların uygulama içi para birimlerini çeşitli görevler tamamlayarak kazanmalarını sağlar ve düzenli kullanımı teşvik eden günlük streak sistemi ile kullanıcı bağlılığını artırır.
+
+![Earn Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Earn.gif) 
+
+

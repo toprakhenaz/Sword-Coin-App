@@ -39,4 +39,30 @@ Crystal tabanlı airdrop özelliği için gelecekte bir Airdrop sayfası eklenec
 League butonuna tıklandığında, şunları gösteren bir lig sayfası açılır:
 - Liglere göre oyuncu sıralamaları
 - Diğer mevcut ligler
-- Bir sonraki lige yükselmek için gereken coin gereksinimleri
+- Bir sonraki lige yükselmek için gereken coin gereksinimler
+  ![lig](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
+
+
+# Friends Page - Referral System
+
+## Arkadaşlar Sayfası - Davet Sistemi
+
+Arkadaşlar sayfası, kullanıcılara referans sistemi aracılığıyla arkadaşlarını uygulamaya davet etme ve bonus kazanma imkanı sunar.
+
+### Davet Mekanizması
+- **Arkadaşını Davet Et** butonuna tıklandığında kullanıcı doğrudan Telegram üzerinden arkadaşlarını davet edebilir
+- **Kopyalama** butonuna tıklandığında davet linki panoya kopyalanır ve kullanıcı bu linki istediği platformda paylaşabilir
+
+### Kazanç Sistemi
+- Her başarılı davet sonucunda hem davet eden hem davet edilen kişi **2500 coin** bonus kazanır
+- **Telegram Premium** üyeliği olan kullanıcılar ek olarak davet ettikleri kişinin kazandığı miktarın **%10'u** kadar ekstra kazanç elde eder
+
+### Görünüm
+- Sayfanın üst kısmında kullanıcının mevcut coin ve crystal miktarı görüntülenir
+- Orta kısımda toplam arkadaş sayısı ve davet avantajları hakkında bilgiler yer alır
+- Alt kısımda uygulama içi navigasyon menüsü bulunur
+
+Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte olmalarını sağlarken, topluluk oluşturmayı ve uygulamanın büyümesini teşvik eder.
+  ![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
+
+

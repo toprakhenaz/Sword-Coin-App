@@ -40,7 +40,7 @@ League butonuna tıklandığında, şunları gösteren bir lig sayfası açılı
 - Liglere göre oyuncu sıralamaları
 - Diğer mevcut ligler
 - Bir sonraki lige yükselmek için gereken coin gereksinimler
-  ![lig](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
+![lig](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
 
 
 # Friends Page - Referral System
@@ -62,7 +62,7 @@ Arkadaşlar sayfası, kullanıcılara referans sistemi aracılığıyla arkadaş
 - Orta kısımda toplam arkadaş sayısı ve davet avantajları hakkında bilgiler yer alır
 - Alt kısımda uygulama içi navigasyon menüsü bulunur
 
-Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte olmalarını sağlarken, topluluk oluşturmayı ve uygulamanın büyümesini teşvik eder.
-  ![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
+Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte olmalarını sağlarken, topluluk oluşturmayı ve uygulamanın büyümesini teşvik eder. 
+![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
 
 

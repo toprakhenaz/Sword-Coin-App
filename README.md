@@ -1,145 +1,198 @@
-# Sword-Coin-App
-**GitHub - Tap to Earn App: Sword Coin Uygulaması**  
-Bu proje, kullanıcıların aktif katılım ve etkileşimle dijital ödüller kazandığı bir **Tap to Earn** uygulamasıdır. Uygulama, **Sword Coin** adlı sanal bir para birimi üzerinden çalışmaktadır. Kullanıcılar, belirli görevleri tamamlayarak ve belirli etkileşimlerde bulunarak **Sword Coin** kazanır. Uygulama, **React** ve **Next.js** teknolojileriyle geliştirilmiştir ve **Tailwind CSS** ile şık bir kullanıcı arayüzü sunmaktadır. Veri yönetimi için **Prisma** kullanarak veritabanı entegrasyonu sağlanmış, **Vercel** üzerinde barındırılmıştır. **GitHub** üzerinden açık kaynak kodlu olarak erişilemez, Uygulamanın hakları saklıdır.
+# Sword Coin App
+**Tap to Earn Game: Sword Coin Application**
 
+Sword Coin is a **Tap to Earn** mobile application where users earn digital rewards through active participation and engagement. The app revolves around a virtual currency called **Sword Coin**, which users can earn by completing various tasks and interactions.
 
-## Main Page Overview
+## 🛠️ Technology Stack
 
-![Ana sayfa](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Ana-sayfa.gif)
+- **Frontend**: React, Next.js
+- **Styling**: Tailwind CSS
+- **Database**: Prisma ORM
+- **Hosting**: Vercel
+- **Platform**: Mobile-first web application
 
+## 📱 Main Features
 
-Tap to Earn uygulamasının ana sayfası, oyuncuların dokunarak para kazanabilecekleri basit ancak ilgi çekici bir arayüze sahiptir.
+### Core Gameplay
+- **Tap to Earn**: Users earn coins by tapping the main sword button
+- **Energy System**: Limited energy that regenerates over time
+- **League System**: Progressive ranking system with different tiers
+- **Daily Activities**: Streak rewards and daily combo challenges
 
-### Top Section
-- **Crystals**: 65065 (kristal simgesi ile gösterilir) - Bunlar oyunun temel para birimidir ve oyun sonunda airdrop için kullanılır.
-- **Coins to level up**: 2200 (yukarı ok simgesi ile gösterilir) - Bir sonraki seviyeye ulaşmak için gereken coin miktarını gösterir.
-- **Earn per Tap**: +1 (coin yığını simgesi ile gösterilir) - Her tıklamada kazanılan coin miktarını belirtir.
+### Social Features
+- **Referral System**: Invite friends and earn bonus rewards
+- **Telegram Integration**: Seamless invitation through Telegram
+- **Premium Benefits**: Additional rewards for Telegram Premium users
 
-### Center Section
-- **Coin Display**: 1269 - Oyuncunun mevcut coin bakiyesini gösterir.
-- **League Button**: "Lig 1 →" - Mevcut ligi gösterir ve lig sayfasına erişim sağlar.
-- **Main Tap Button**: Liglerde ilerledikçe değişen bir kılıç görüntüsüne sahip büyük dairesel bir buton.
-  - Bu butona tıklamak enerjiyi azaltır ve coinleri artırır.
-  - Her tıklama, görünen ve kaybolan "+earn-per-tap" animasyonunu gösterir.
+### Collection & Upgrades
+- **Card System**: Collectible cards in various categories
+- **Upgrade Mechanics**: Enhance cards using earned coins
+- **Daily Combo**: Special daily challenges with high rewards
 
-### Energy Section
-- **Energy Bar**: "500 / 500" - Mevcut ve maksimum enerjiyi gösterir.
-- **Rocket Button**: Enerjiyi tamamen doldurur, günde üç kez ve kullanımlar arasında 1 saat aralıklarla kullanılabilir.
+---
 
-### Bottom Navigation
-Uygulama, alt menü aracılığıyla erişilebilen 4 ana sayfadan oluşur:
-1. **Home**: Ana oyun arayüzü
-2. **Friends**: Sosyal özellikler
-3. **Mine**: Oyuncunun kaynakları/envanteri
-4. **Earn**: Ek kazanç yöntemleri
+## 🎮 Game Pages Overview
 
-Crystal tabanlı airdrop özelliği için gelecekte bir Airdrop sayfası eklenecektir.
+### 🏠 Main Page (Home)
 
-### League System
-League butonuna tıklandığında, şunları gösteren bir lig sayfası açılır:
-- Liglere göre oyuncu sıralamaları
-- Diğer mevcut ligler
-- Bir sonraki lige yükselmek için gereken coin gereksinimler
-![lig](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
+![Main Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Ana-sayfa.gif)
 
+The main gameplay interface where users interact with the core tap-to-earn mechanics.
 
+#### Top Section
+- **💎 Crystals**: 65,065 - Premium currency used for airdrops
+- **⬆️ Coins to Level Up**: 2,200 - Coins needed to reach the next level
+- **🪙 Earn per Tap**: +1 - Coins earned per tap
 
-## Arkadaşlar Sayfası - Davet Sistemi
+#### Center Section
+- **Current Balance**: 1,269 coins
+- **League Status**: "League 1 →" - Current league with navigation to league page
+- **Tap Button**: Large circular button featuring a sword that changes based on league progression
+  - Tapping decreases energy and increases coins
+  - Shows "+earn-per-tap" animation on each tap
 
-Arkadaşlar sayfası, kullanıcılara referans sistemi aracılığıyla arkadaşlarını uygulamaya davet etme ve bonus kazanma imkanı sunar.
+#### Energy System
+- **Energy Bar**: 500/500 - Current and maximum energy
+- **🚀 Rocket Button**: Fully restores energy
+  - Available 3 times per day
+  - 1-hour cooldown between uses
 
-### Davet Mekanizması
-- **Arkadaşını Davet Et** butonuna tıklandığında kullanıcı doğrudan Telegram üzerinden arkadaşlarını davet edebilir
-- **Kopyalama** butonuna tıklandığında davet linki panoya kopyalanır ve kullanıcı bu linki istediği platformda paylaşabilir
+#### League System
+![League System](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/lig.gif)
 
-### Kazanç Sistemi
-- Her başarılı davet sonucunda hem davet eden hem davet edilen kişi **2500 coin** bonus kazanır
-- **Telegram Premium** üyeliği olan kullanıcılar ek olarak davet ettikleri kişinin kazandığı miktarın **%10'u** kadar ekstra kazanç elde eder
+- Player rankings by league
+- Requirements to advance to higher leagues
+- Competitive progression system
 
-### Görünüm
-- Sayfanın üst kısmında kullanıcının mevcut coin ve crystal miktarı görüntülenir
-- Orta kısımda toplam arkadaş sayısı ve davet avantajları hakkında bilgiler yer alır
-- Alt kısımda uygulama içi navigasyon menüsü bulunur
+---
 
-Bu referans sistemi, kullanıcıların oyun içi ekonomiye daha hızlı adapte olmalarını sağlarken, topluluk oluşturmayı ve uygulamanın büyümesini teşvik eder. 
+### 👥 Friends Page (Referral System)
 
 ![Friends Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Friends-page.png)
 
+Social features that allow users to invite friends and earn bonuses through the referral system.
 
-## Mine Sayfası - Kartlar ve Günlük Kombo
+#### Invitation Mechanics
+- **Invite Friend Button**: Direct invitation through Telegram
+- **Copy Link Button**: Copy invitation link to share on any platform
 
-Mine sayfası, kullanıcıların çeşitli kartları görüntüleyebildiği, yükseltebildiği ve günlük kombo etkinliğine katılabildiği alandır.
+#### Reward System
+- **🎁 Referral Bonus**: Both referrer and referee earn **2,500 coins**
+- **💎 Premium Bonus**: Telegram Premium users earn additional **10%** of referred user's earnings
 
-### Daily Combo Sistemi
-- **Günlük Kombo**: Sayfanın üst kısmında görüntülenen, her 24 saatte bir otomatik olarak yenilenen özel bir etkinlik
-- **Ödül**: Rastgele seçilmiş 3 kartı doğru şekilde bulunca **100,000 coin** kazanma fırsatı
-- **Zaman Sayacı**: Bir sonraki yenilemeye kalan süreyi gösteren geri sayım sayacı (03:47:23)
+#### Display Features
+- Current coin and crystal balance at the top
+- Total friend count and invitation benefits
+- Navigation menu at the bottom
 
-### Kart Kategorileri
-Kartlar farklı kategorilere ayrılmıştır:
-- **Ekipman**
-- **İşçiler**
-- **İstekai**
-- **Özel** (Premium kartlar, daha yüksek fiyatla satılır)
+---
 
-### Kart Özellikleri
-- Her kartın kendine özgü görsel tasarımı vardır
-- Örnekler: "Abyssal Hammer" ve "Celestial Shield"
-- Kartların **Seviye** sistemi vardır (Seviye 0, Seviye 1, vb.)
-- Her kart yükseltildiğinde **Crystal ** kazanılır
-
-### Yükseltme Sistemi
-- Kartları yükseltmek için coin gereklidir
-- Yükseltme maliyeti kartın seviyesine göre değişir
-- Örnek fiyatlar: 1100 coin, 1500 coin
-- Kartlar yükseltildikçe daha değerli hale gelir
-
-### Tasarım
-- Görsel açıdan çekici, detaylı kart tasarımları
-- Seviye, maliyet ve ödül bilgileri net bir şekilde gösterilir
-- Alt kısımda uygulama içi navigasyon menüsü bulunur
-
-Bu sayfa, oyun içi koleksiyon oluşturma ve ekonomi sisteminin önemli bir parçasıdır, kullanıcıları düzenli olarak uygulamaya dönmeye teşvik eden Daily Combo sistemi ile kullanıcı bağlılığını artırır.
+### ⛏️ Mine Page (Cards & Daily Combo)
 
 ![Mine Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Mine.gif)
 
+Collection and upgrade system where users can view, upgrade cards, and participate in daily combo events.
 
+#### Daily Combo System
+- **🎯 Daily Challenge**: Special event that resets every 24 hours
+- **🏆 Mega Reward**: **100,000 coins** for finding the correct 3 random cards
+- **⏰ Timer**: Countdown showing time until next reset (e.g., 03:47:23)
 
-## Earn Sayfası - Ödüller ve Günlük Bonuslar
+#### Card Categories
+- **⚔️ Equipment**: Weapons and gear cards
+- **👷 Workers**: Character and worker cards
+- **🔮 Special**: Rare cards with unique abilities
+- **💎 Premium**: High-value exclusive cards
 
-Earn sayfası, kullanıcıların çeşitli görevleri tamamlayarak ödüller kazanabileceği bir bölümdür.
+#### Card Features
+- **Unique Artwork**: Each card has custom visual design
+- **Examples**: "Abyssal Hammer", "Celestial Shield"
+- **Level System**: Cards progress from Level 0 upward
+- **Crystal Rewards**: Earn crystals when upgrading cards
 
-### Günlük Ödül Sistemi
-- **Günlük Ödül (Streak)**: Kullanıcının kaç gün üst üste uygulamaya giriş yaptığını gösteren sayaç
-- **İlerleme Çubuğu**: Streak'in görsel gösterimi
-- **Mevcut Durum**: "Streak: 3 gün" (Örnek)
-- **Döngü**: 7 günlük bir döngü tamamlandıktan sonra sistem yeniden başlar
-- **Ödül Butonu**: "Ödülü Al" butonu ile günlük ödül talep edilebilir
+#### Upgrade System
+- **Coin Cost**: Upgrades require coins (e.g., 1,100, 1,500 coins)
+- **Progressive Pricing**: Higher levels cost more coins
+- **Value Increase**: Upgraded cards become more valuable
 
-### Özel Teklifler
-Kullanıcılara sunulan çeşitli görevler kategorilere ayrılmıştır:
-- **Crypto**
-- **Banka**
-- **Sponsor**
-- **Reklam**
+---
 
-### Görev Örnekleri ve Ödülleri
-- **Binomo 10$**: 10000 Crystal ödül (Durumu: Pending)
-- **Discord'a katıl**: 20000 Crystal ödül (Durumu: Pending)
-- **Arkadaşını davet et**: 25000 Crystal ödül (Durumu: Pending)
-- **Gemz uygulamasını değerlendir**: 30000 Crystal ödül (Durumu: Go - Aktif)
-- **Telegram grubuna katıl**: Crystal ödül (Durumu: Go - Aktif)
+### 💰 Earn Page (Rewards & Daily Bonuses)
 
-### Görev Durumları
-- **Pending**: Henüz tamamlanmamış veya onay bekleyen görevler
-- **Go**: Tamamlanmaya hazır, aktif görevler
+![Earn Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Earn.gif)
 
-### Sayfa Üst Bilgisi
-- Sol üstte kullanıcının toplam coin miktarı: 111000
-- Sağ üstte kullanıcının toplam crystal miktarı: 65110
+Task completion system where users can earn rewards through various activities and maintain daily streaks.
 
-Bu sayfa, kullanıcıların uygulama içi para birimlerini çeşitli görevler tamamlayarak kazanmalarını sağlar ve düzenli kullanımı teşvik eden günlük streak sistemi ile kullanıcı bağlılığını artırır.
+#### Daily Reward System
+- **🔥 Daily Streak**: Consecutive days counter
+- **📊 Progress Bar**: Visual representation of streak progress
+- **🔄 7-Day Cycle**: System resets after completing 7 days
+- **🎁 Claim Button**: "Claim Reward" button for daily bonuses
 
-![Earn Page](https://github.com/toprakhenaz/Sword-Coin-App/blob/main/Images/Earn.gif) 
+#### Task Categories
+Tasks are organized into different categories:
+- **₿ Crypto**: Cryptocurrency-related tasks
+- **🏦 Banking**: Financial service tasks
+- **🤝 Sponsor**: Sponsored content tasks
+- **📢 Advertisement**: Promotional tasks
 
+#### Sample Tasks & Rewards
+| Task | Reward | Status |
+|------|--------|--------|
+| Binomo $10 | 10,000 Crystals | Pending |
+| Join Discord | 20,000 Crystals | Pending |
+| Invite a Friend | 25,000 Crystals | Pending |
+| Rate Gemz App | 30,000 Crystals | Active |
+| Join Telegram Group | Crystals | Active |
 
+#### Task Status Types
+- **⏳ Pending**: Incomplete or awaiting verification
+- **✅ Go**: Ready to complete, currently active
+
+---
+
+## 🎯 Navigation
+
+The app features a bottom navigation bar with 4 main sections:
+
+1. **🏠 Home**: Main gameplay interface
+2. **👥 Friends**: Social features and referral system  
+3. **⛏️ Mine**: Card collection and daily combo
+4. **💰 Earn**: Task completion and daily bonuses
+
+*Note: An Airdrop page featuring crystal-based rewards will be added in future updates.*
+
+---
+
+## 🏆 Game Economy
+
+### Currencies
+- **🪙 Coins**: Primary currency earned through tapping and tasks
+- **💎 Crystals**: Premium currency for special features and airdrops
+
+### Earning Methods
+- **Tapping**: Core gameplay mechanic
+- **Task Completion**: Various promotional and social tasks
+- **Daily Streaks**: Consistent login rewards
+- **Referrals**: Bonus for inviting friends
+- **Daily Combo**: High-reward puzzle challenges
+- **Card Upgrades**: Strategic collection building
+
+---
+
+## 📄 License
+
+All rights reserved. This application is not open source and the code is proprietary.
+
+---
+
+## 🚀 Future Features
+
+- **🎁 Airdrop System**: Crystal-based reward distribution
+- **🏅 Enhanced Leagues**: More competitive features
+- **🃏 New Card Types**: Expanded collection categories
+- **🌐 Multi-language Support**: Additional language options
+
+---
+
+*Built with ❤️ using modern web technologies for an engaging mobile gaming experience.*
